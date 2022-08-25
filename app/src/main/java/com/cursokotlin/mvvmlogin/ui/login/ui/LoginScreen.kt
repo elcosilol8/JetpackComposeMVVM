@@ -82,7 +82,7 @@ fun LoginButton(loginEnable: Boolean, onLoginSelected: () -> Unit) {
 @Composable
 fun ForgotPassword(modifier: Modifier) {
     Text(
-        text = "Olvidaste la contraseña?",
+        text = "Has olvidado la contraseña?",
         modifier = modifier.clickable { },
         fontSize = 12.sp,
         fontWeight = FontWeight.Bold,
@@ -101,7 +101,7 @@ fun PasswordField(password: String, onTextFieldChanged: (String) -> Unit) {
         maxLines = 1,
         colors = TextFieldDefaults.textFieldColors(
             textColor = Color(0xFF636262),
-            backgroundColor = Color(0xFFDEDDDD),
+            backgroundColor = Colo,
             focusedIndicatorColor = Color.Transparent,
             unfocusedIndicatorColor = Color.Transparent
         )
