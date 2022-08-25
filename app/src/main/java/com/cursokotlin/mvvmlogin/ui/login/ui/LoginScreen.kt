@@ -69,8 +69,8 @@ fun LoginButton(loginEnable: Boolean, onLoginSelected: () -> Unit) {
             .fillMaxWidth()
             .height(48.dp),
         colors = ButtonDefaults.buttonColors(
-            backgroundColor = Color(0xFFFF4303),
-            disabledBackgroundColor = Color(0xFFF78058),
+            backgroundColor = Color(0xFF2382FF),
+            disabledBackgroundColor = Color(0xFFA9BBB2),
             contentColor = Color.White,
             disabledContentColor = Color.White
         ), enabled = loginEnable
