@@ -101,7 +101,7 @@ fun PasswordField(password: String, onTextFieldChanged: (String) -> Unit) {
         maxLines = 1,
         colors = TextFieldDefaults.textFieldColors(
             textColor = Color(0xFF636262),
-            backgroundColor = Colo,
+            backgroundColor = Color(0xFFDEDDDD),
             focusedIndicatorColor = Color.Transparent,
             unfocusedIndicatorColor = Color.Transparent
         )
@@ -113,7 +113,7 @@ fun EmailField(email: String, onTextFieldChanged: (String) -> Unit) {
     TextField(
         value = email, onValueChange = { onTextFieldChanged(it) },
         modifier = Modifier.fillMaxWidth(),
-        placeholder = { Text(text = "Email") },
+        placeholder = { Text(text = "Correo electrónico") },
         keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email),
         singleLine = true,
         maxLines = 1,
